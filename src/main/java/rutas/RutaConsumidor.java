@@ -15,7 +15,7 @@ public class RutaConsumidor extends RouteBuilder {
         restConfiguration()
                 .bindingMode(RestBindingMode.auto);
 
-        rest("ejemplo1")
+        rest("ejemplo2")
                 .post()
                 .consumes("application/json")
                 .produces("application/json")
