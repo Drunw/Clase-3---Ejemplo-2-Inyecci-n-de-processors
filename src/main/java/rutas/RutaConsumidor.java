@@ -17,6 +17,7 @@ public class RutaConsumidor extends RouteBuilder {
 
         rest("ejemplo1")
                 .post()
+                .consumes("application/json")
                 .produces("application/json")
                 .to("direct:rutaInicial");
 
